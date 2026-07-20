@@ -1,0 +1,16 @@
+# Published entomological inoculation rate (EIR) estimates, northern Ghana. SECONDARY calibration anchor.
+# CAVEATS: (1) units differ - some are ib/p/SEASON (Jul-Dec) not annual; (2) method differs - CDC light-trap EIR runs
+# systematically higher than human-landing-catch (HLC); (3) many "northern Ghana" papers are actually UPPER EAST.
+# eir = annual infectious bites/person/year unless unit=season. Upper West: NO published EIR (use UE/Northern proxy).
+region,site,year,eir,unit,method,era,source
+upper_east,Kassena-Nankana (irrigated/lowland/highland),2001,418,annual,HLC,pre-intervention,Appawu 2004 TMIH 9:164 (range 228-630)
+upper_east,Navrongo HDSS (yr1),2001,1132,annual,CDC light trap,pre-intervention,Kasasa 2013 MalJ 12:63
+upper_east,Navrongo HDSS (yr2),2002,193,annual,CDC light trap,pre-intervention,Kasasa 2013 MalJ 12:63
+upper_east,Navrongo HDSS (yr3),2003,157,annual,CDC light trap,pre-intervention,Kasasa 2013 MalJ 12:63
+northern,Tamale Metro (unsprayed control),2009,35,season,HLC,ITN-era no IRS,Coleman 2017 MalJ 16:324
+northern,Tamale Metro (unsprayed control),2013,188,season,HLC,ITN-era no IRS,Coleman 2017 MalJ 16:324
+northern,Tamale Metro (unsprayed control),2019,217,annual,HLC+ELISA,ITN+IRS era,Coleman 2021 SciRep 11:18055
+northern,Savelugu-Nanton (sustained IRS),2013,0,season,HLC,IRS,Coleman 2017 MalJ 16:324
+northern,Tolon-Kumbungu (IRS withdrawn 2013),2014,154,season,HLC,IRS-withdrawn rebound,Coleman 2017 MalJ 16:324
+northern,Tamale Metro (control) vs Kumbungu (IRS),2018,16.3,annual,HLC,ITN+IRS (PMI VectorLink),Coleman 2023 P&V 16:205 (IRS site 6.1)
+upper_west,NONE FOUND,,,,,,no published Upper West EIR - use savanna proxy

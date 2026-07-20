@@ -1,0 +1,9 @@
+# Survey field-work windows (from report methodology sections). Used to sample the seasonal model
+# at the right time-of-year when comparing modeled prevalence to observed survey PfPR.
+# doy_start/doy_end = approx day-of-year of the field window (2022 wraps into mid-January).
+survey,year,start,end,doy_start,doy_end,season
+MICS,2011,2011-09-15,2011-12-14,258,348,late wet to early dry
+GDHS,2014,2014-09-05,2014-12-15,248,349,late wet to early dry
+GMIS,2016,2016-10-03,2016-12-01,277,336,end wet to dry
+GMIS,2019,2019-09-25,2019-11-24,268,328,end wet to dry
+GDHS,2022,2022-10-17,2023-01-14,290,379,dry (wraps to mid-Jan)

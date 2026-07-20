@@ -1,0 +1,23 @@
+{
+    "Metadata": {
+        "DateCreated": "2026-07-12",
+        "IdReference": "Gridded world grump2.5arcmin",
+        "Resolution": "daily",
+        "DataProvenance": "NASA POWER daily 2001-2020 climatology, northern",
+        "UpdateResolution": "CLIMATE_UPDATE_DAY",
+        "OriginalDataYears": "2001-2020",
+        "StartDayOfYear": 1,
+        "Tool": "emodpy_malaria",
+        "Author": "Institute for Disease Modeling",
+        "BottomLatitude": 9.4,
+        "UpperLatitude": 9.4,
+        "LeftLongitude": -0.84,
+        "RightLongitude": -0.84,
+        "OffsetEntryCount": 1,
+        "NumberDTKNodes": 1,
+        "NodeCount": 1,
+        "DatavalueCount": 21900,
+        "DatavaluePerCell": 21900
+    },
+    "NodeOffsets": "0000000100000000"
+}

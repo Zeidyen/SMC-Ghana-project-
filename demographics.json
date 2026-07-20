@@ -1,0 +1,162 @@
+{
+   "Defaults": {
+      "IndividualAttributes": {
+         "AgeDistribution": {
+            "DistributionValues": [
+               0.0,
+               0.034566200000000005,
+               0.06790779999999999,
+               0.1001575,
+               0.13135116,
+               0.16152339333333332,
+               0.19070723333333334,
+               0.21893466,
+               0.24623770333333334,
+               0.27264671333333335,
+               0.29819086,
+               0.32289855333333334,
+               0.34679700666666663,
+               0.36991208000000003,
+               0.39227032,
+               0.41389637333333335,
+               0.5118548466666667,
+               0.59478848,
+               0.6650017133333332,
+               0.7244452466666667,
+               0.77477129,
+               0.8173783066666667,
+               0.85345026,
+               0.8839895,
+               0.9098446033333333,
+               0.9317339533333334,
+               0.95026584,
+               0.9659553000000001,
+               0.9792383533333333,
+               0.99048396,
+               1.0
+            ],
+            "NumDistributionAxes": 0,
+            "ResultScaleFactor": 365,
+            "ResultUnits": "years",
+            "ResultValues": [
+               0,
+               1,
+               2,
+               3,
+               4,
+               5,
+               6,
+               7,
+               8,
+               9,
+               10,
+               11,
+               12,
+               13,
+               14,
+               15,
+               20,
+               25,
+               30,
+               35,
+               40,
+               45,
+               50,
+               55,
+               60,
+               65,
+               70,
+               75,
+               80,
+               85,
+               90
+            ]
+         },
+         "AgeDistribution1": 0,
+         "AgeDistribution2": 18250,
+         "AgeDistributionFlag": 1,
+         "InitialPrevalence": 0,
+         "MortalityDistribution": {
+            "AxisNames": [
+               "gender",
+               "age"
+            ],
+            "AxisScaleFactors": [
+               1,
+               365
+            ],
+            "AxisUnits": [
+               "male=0,female=1",
+               "years"
+            ],
+            "PopulationGroups": [
+               [
+                  0,
+                  1
+               ],
+               [
+                  0
+               ]
+            ],
+            "ResultScaleFactor": 1,
+            "ResultUnits": "daily probability of dying",
+            "ResultValues": [
+               [
+                  9.589500873830217e-05
+               ],
+               [
+                  9.589500873830217e-05
+               ]
+            ]
+         },
+         "PrevalenceDist_Description": "Uniform draw from 0.1 to 0.1",
+         "PrevalenceDistribution1": 0.1,
+         "PrevalenceDistribution2": 0.1,
+         "PrevalenceDistributionFlag": 1,
+         "PrevalenceDistribution_Description": "Constant Initial Prevalence (0.1)",
+         "RiskDist_Description": "LogNormal distributed risk",
+         "RiskDistribution1": 0.0,
+         "RiskDistribution2": 1.6,
+         "RiskDistributionFlag": 5
+      },
+      "IndividualProperties": [
+         {
+            "Initial_Distribution": [
+               0.6,
+               0.4
+            ],
+            "Property": "SMCReached",
+            "Values": [
+               "Y",
+               "N"
+            ]
+         }
+      ],
+      "NodeAttributes": {
+         "Airport": 1,
+         "Altitude": 0,
+         "BirthRate": 9.58904109589041e-05,
+         "Region": 1,
+         "Seaport": 1
+      }
+   },
+   "Metadata": {
+      "Author": "zeid",
+      "DateCreated": "07/19/2026",
+      "IdReference": "Gridded world grump2.5arcmin",
+      "NodeCount": 1,
+      "Tool": "emod-api"
+   },
+   "Nodes": [
+      {
+         "IndividualAttributes": {},
+         "NodeAttributes": {
+            "FacilityName": "Wa",
+            "InitialPopulation": 2000,
+            "Latitude": 10.06,
+            "Longitude": -2.5
+         },
+         "NodeID": 1
+      }
+   ]
+}

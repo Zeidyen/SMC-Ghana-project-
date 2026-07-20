@@ -1,0 +1,23 @@
+# EMOD experiment output (raw simulation data — do NOT commit; ~38 GB)
+jobs/
+
+# Virtual environment
+env/
+venv/
+.venv/
+
+# Downloaded EMOD binary (fetch separately, not source)
+download/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs and OS cruft
+*.log
+.DS_Store
+
+# Word temp/lock files
+~$*.docx
+docs/~$*

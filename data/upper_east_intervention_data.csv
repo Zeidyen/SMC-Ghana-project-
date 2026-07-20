@@ -1,0 +1,17 @@
+
+
+
+
+
+# Upper East Region, Ghana — intervention coverage & malaria prevalence by survey year
+# Compiled from Ghana DHS/GMIS/MICS final report tables (see source column). Proxy for Navrongo.
+# PfPR = parasite prevalence in children 6-59 months. itn_u5 = % under-5 slept under ITN last night.
+# careseek = % febrile under-5 for whom advice/treatment sought. act_febrile = % of ALL febrile who got ACT.
+# smc_cov = SMC coverage (per-cycle, eligible 3-59mo). irs_note flags IRS activity. n = UE children tested.
+survey,year,pfpr_micro,pfpr_rdt,n_tested,itn_u5,hh_itn_own,careseek,act_febrile,smc_cov,source
+MICS,2011,0.440,0.774,194,0.450,0.518,0.688,0.273,0.0,FR262 (T MB.19/MB.4/MB.9/MB.11)
+GDHS,2014,0.117,0.227,105,0.374,0.728,0.813,0.368,0.0,FR307 (T12.15/12.5/12.12)
+GMIS,2016,0.147,0.258,105,0.755,0.939,0.853,,0.0,MIS26 (T4.6/3.6/4.1)
+GMIS,2019,0.098,0.306,124,0.672,0.878,0.787,0.49,,MIS35 (T4.6/3.7/4.1/4.3 derived)
+GDHS,2022,0.122,0.336,184,0.630,,0.748,,,FR387 (T12.15/12.10/API)
+
