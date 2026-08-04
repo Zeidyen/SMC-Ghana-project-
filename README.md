@@ -2,6 +2,8 @@
 
 Agent-based *Plasmodium falciparum* transmission models (EMOD / [emodpy-malaria](https://github.com/InstituteforDiseaseModeling/emodpy-malaria)) for the three high-burden northern regions of Ghana — **Upper East, Northern, and Upper West** — used to evaluate options for expanding Seasonal Malaria Chemoprevention (SMC): **adding a fifth monthly cycle** and/or **extending age eligibility** from under-5 to 10 or 15 years. Each regional model is independently calibrated to survey prevalence and drives a 2023–2027 projection of clinical incidence, severe malaria, deaths, parasite prevalence, anaemia, and cost-effectiveness.
 
+**[▸ Interactive policy dashboard](https://zeidyen.github.io/SMC-Ghana-project-/)** — pick a region, compare the six scenarios, and vary coverage, cost per course and willingness to pay. Self-contained single page (`index.html`); regenerate with `python build_dashboard.py`.
+
 ## Key findings
 
 - All three regional models reproduce observed under-five RDT prevalence over 2011–2022 (best-fit relative transmission intensity 1.8 / 2.0 / 2.5 for Upper East / Northern / Upper West).

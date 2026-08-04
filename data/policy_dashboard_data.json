@@ -1,0 +1,346 @@
+{
+ "regions": {
+  "upper_east": {
+   "5cycle": {
+    "impact": {
+     "U5": 26.2,
+     "5-10": 0.5,
+     "U15": 7.9
+    },
+    "clin_averted": 105286,
+    "sev_averted": 523,
+    "deaths_averted": 52,
+    "cost": 155358,
+    "dalys": 2225,
+    "usd_per_daly": 70,
+    "net_cost": -397238,
+    "cost_saving": true,
+    "frontier": "frontier",
+    "counts": {
+     "clin": 105286,
+     "sev": 523,
+     "courses": 172620
+    }
+   },
+   "age10": {
+    "impact": {
+     "U5": 0.4,
+     "5-10": 54.6,
+     "U15": 25.3
+    },
+    "clin_averted": 332904,
+    "sev_averted": 180,
+    "deaths_averted": 18,
+    "cost": 505380,
+    "dalys": 2545,
+    "usd_per_daly": 199,
+    "net_cost": -1168131,
+    "cost_saving": true,
+    "frontier": "ext-dominated",
+    "counts": {
+     "clin": 332904,
+     "sev": 180,
+     "courses": 561534
+    }
+   },
+   "age15": {
+    "impact": {
+     "U5": 3.3,
+     "5-10": 53.5,
+     "U15": 38.4
+    },
+    "clin_averted": 505418,
+    "sev_averted": 282,
+    "deaths_averted": 28,
+    "cost": 882125,
+    "dalys": 3891,
+    "usd_per_daly": 227,
+    "net_cost": -1659058,
+    "cost_saving": true,
+    "frontier": "dominated",
+    "counts": {
+     "clin": 505418,
+     "sev": 282,
+     "courses": 980139
+    }
+   },
+   "5cycle_age10": {
+    "impact": {
+     "U5": 28.1,
+     "5-10": 69.0,
+     "U15": 40.1
+    },
+    "clin_averted": 527212,
+    "sev_averted": 914,
+    "deaths_averted": 91,
+    "cost": 794454,
+    "dalys": 5945,
+    "usd_per_daly": 134,
+    "net_cost": -1887283,
+    "cost_saving": true,
+    "frontier": "frontier",
+    "counts": {
+     "clin": 527212,
+     "sev": 914,
+     "courses": 882726
+    }
+   },
+   "5cycle_age15": {
+    "impact": {
+     "U5": 30.6,
+     "5-10": 68.6,
+     "U15": 57.0
+    },
+    "clin_averted": 748350,
+    "sev_averted": 985,
+    "deaths_averted": 98,
+    "cost": 1255666,
+    "dalys": 7489,
+    "usd_per_daly": 168,
+    "net_cost": -2535320,
+    "cost_saving": true,
+    "frontier": "frontier",
+    "counts": {
+     "clin": 748350,
+     "sev": 985,
+     "courses": 1395184
+    }
+   }
+  },
+  "upper_west": {
+   "5cycle": {
+    "impact": {
+     "U5": 23.2,
+     "5-10": 0.3,
+     "U15": 6.9
+    },
+    "clin_averted": 72475,
+    "sev_averted": 415,
+    "deaths_averted": 42,
+    "cost": 112949,
+    "dalys": 1699,
+    "usd_per_daly": 66,
+    "net_cost": -270182,
+    "cost_saving": true,
+    "frontier": "frontier",
+    "counts": {
+     "clin": 72475,
+     "sev": 415,
+     "courses": 125499
+    }
+   },
+   "age10": {
+    "impact": {
+     "U5": 0.3,
+     "5-10": 52.1,
+     "U15": 24.1
+    },
+    "clin_averted": 251089,
+    "sev_averted": 302,
+    "deaths_averted": 30,
+    "cost": 347420,
+    "dalys": 2425,
+    "usd_per_daly": 143,
+    "net_cost": -923116,
+    "cost_saving": true,
+    "frontier": "ext-dominated",
+    "counts": {
+     "clin": 251089,
+     "sev": 302,
+     "courses": 386022
+    }
+   },
+   "age15": {
+    "impact": {
+     "U5": 2.5,
+     "5-10": 51.2,
+     "U15": 36.8
+    },
+    "clin_averted": 383144,
+    "sev_averted": 370,
+    "deaths_averted": 37,
+    "cost": 609495,
+    "dalys": 3424,
+    "usd_per_daly": 178,
+    "net_cost": -1324707,
+    "cost_saving": true,
+    "frontier": "dominated",
+    "counts": {
+     "clin": 383144,
+     "sev": 370,
+     "courses": 677217
+    }
+   },
+   "5cycle_age10": {
+    "impact": {
+     "U5": 25.0,
+     "5-10": 65.1,
+     "U15": 37.3
+    },
+    "clin_averted": 389482,
+    "sev_averted": 922,
+    "deaths_averted": 92,
+    "cost": 547324,
+    "dalys": 5144,
+    "usd_per_daly": 106,
+    "net_cost": -1446184,
+    "cost_saving": true,
+    "frontier": "frontier",
+    "counts": {
+     "clin": 389482,
+     "sev": 922,
+     "courses": 608137
+    }
+   },
+   "5cycle_age15": {
+    "impact": {
+     "U5": 27.5,
+     "5-10": 64.7,
+     "U15": 53.5
+    },
+    "clin_averted": 559892,
+    "sev_averted": 1024,
+    "deaths_averted": 102,
+    "cost": 875290,
+    "dalys": 6479,
+    "usd_per_daly": 135,
+    "net_cost": -1975387,
+    "cost_saving": true,
+    "frontier": "frontier",
+    "counts": {
+     "clin": 559892,
+     "sev": 1024,
+     "courses": 972544
+    }
+   }
+  },
+  "northern": {
+   "5cycle": {
+    "impact": {
+     "U5": 19.6,
+     "5-10": 0.6,
+     "U15": 5.9
+    },
+    "clin_averted": 146014,
+    "sev_averted": 929,
+    "deaths_averted": 93,
+    "cost": 277700,
+    "dalys": 3705,
+    "usd_per_daly": 75,
+    "net_cost": -498828,
+    "cost_saving": true,
+    "frontier": "frontier",
+    "counts": {
+     "clin": 146014,
+     "sev": 929,
+     "courses": 308555
+    }
+   },
+   "age10": {
+    "impact": {
+     "U5": 0.9,
+     "5-10": 49.7,
+     "U15": 22.3
+    },
+    "clin_averted": 548557,
+    "sev_averted": 675,
+    "deaths_averted": 67,
+    "cost": 864563,
+    "dalys": 5345,
+    "usd_per_daly": 162,
+    "net_cost": -1911954,
+    "cost_saving": true,
+    "frontier": "ext-dominated",
+    "counts": {
+     "clin": 548557,
+     "sev": 675,
+     "courses": 960626
+    }
+   },
+   "age15": {
+    "impact": {
+     "U5": 3.5,
+     "5-10": 49.1,
+     "U15": 35.6
+    },
+    "clin_averted": 874176,
+    "sev_averted": 886,
+    "deaths_averted": 89,
+    "cost": 1518333,
+    "dalys": 7944,
+    "usd_per_daly": 191,
+    "net_cost": -2896860,
+    "cost_saving": true,
+    "frontier": "dominated",
+    "counts": {
+     "clin": 874176,
+     "sev": 886,
+     "courses": 1687037
+    }
+   },
+   "5cycle_age10": {
+    "impact": {
+     "U5": 21.5,
+     "5-10": 61.4,
+     "U15": 33.4
+    },
+    "clin_averted": 821892,
+    "sev_averted": 2120,
+    "deaths_averted": 212,
+    "cost": 1367643,
+    "dalys": 11387,
+    "usd_per_daly": 120,
+    "net_cost": -2847827,
+    "cost_saving": true,
+    "frontier": "frontier",
+    "counts": {
+     "clin": 821892,
+     "sev": 2120,
+     "courses": 1519603
+    }
+   },
+   "5cycle_age15": {
+    "impact": {
+     "U5": 23.9,
+     "5-10": 61.1,
+     "U15": 49.8
+    },
+    "clin_averted": 1223176,
+    "sev_averted": 2347,
+    "deaths_averted": 235,
+    "cost": 2176926,
+    "dalys": 14487,
+    "usd_per_daly": 150,
+    "net_cost": -4056327,
+    "cost_saving": true,
+    "frontier": "frontier",
+    "counts": {
+     "clin": 1223176,
+     "sev": 2347,
+     "courses": 2418807
+    }
+   }
+  }
+ },
+ "labels": {
+  "5cycle": "SMC-5 (U5)",
+  "age10": "SMC-4 (U10)",
+  "age15": "SMC-4 (U15)",
+  "5cycle_age10": "SMC-5 (U10)",
+  "5cycle_age15": "SMC-5 (U15)"
+ },
+ "pop_u15": {
+  "upper_east": 520000,
+  "upper_west": 360000,
+  "northern": 900000
+ },
+ "gdp": 2400,
+ "wtp_half": 1200.0,
+ "params": {
+  "cost_per_course": 0.9,
+  "cfr": 0.1,
+  "yll": 30.0,
+  "cost_out": 5.0,
+  "cost_sev": 50.0
+ }
+}
