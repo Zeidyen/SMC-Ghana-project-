@@ -4,8 +4,7 @@ and build a climatological "typical year" (365-day day-of-year means) per region
 
 Regions (representative site = regional capital / research site):
   upper_east -> Navrongo (10.90 N, 1.09 W)
-  upper_west -> Wa       (10.06 N, 2.50 W)
-  northern   -> Tamale   ( 9.40 N, 0.84 W)
+ 
 
 NASA POWER daily point API (no key): T2M (air temp C), RH2M (rel humidity %),
 PRECTOTCORR (bias-corrected precip mm/day).
@@ -20,11 +19,9 @@ import pandas as pd
 import requests
 
 SITES = {
-    "upper_east": dict(name="Navrongo", lat=10.90, lon=-1.09),
-    "upper_west": dict(name="Wa",       lat=10.06, lon=-2.50),
-    "northern":   dict(name="Tamale",   lat=9.40,  lon=-0.84),
+    "upper_east": dict(name="Navrongo", lat=10.90, lon=-1.09)
 }
-START, END = "20010101", "20201231"          # 20-year climatological base period
+START, END = "20190101", "20191231"          # 20-year climatological base period
 OUTDIR = os.path.join(os.path.dirname(__file__), "climate")
 PARAMS = ["T2M", "RH2M", "PRECTOTCORR"]
 
